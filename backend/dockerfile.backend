@@ -1,0 +1,28 @@
+# Use the official Python 3.12 image as the base image
+FROM python:3.12
+
+# Set working directory inside the container
+WORKDIR /app
+
+# Set environment variables
+ENV WATSONX_APIKEY=**********
+ENV PROJECT_ID=**********
+ENV WATSONX_HOSTED_SERVICE=**********
+ENV ORIGIN=**********
+ENV SECRET_KEY=**********
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire backend folder to the container
+COPY . ./backend
+
+# Create a directory for the database
+RUN mkdir -p /app/database
+
+# Expose the necessary ports
+EXPOSE 9508
+
+# Command to run the application with SSL certificates
+CMD ["uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "9508", "--ssl-keyfile", "/app/backend/certificates/certificate.key", "--ssl-certfile", "/app/backend/certificates/certificate.crt"]
