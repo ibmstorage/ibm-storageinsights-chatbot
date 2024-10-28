@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# This script automates the setup and deployment of frontend and backend containerized applications using Podman.
+# It performs the following steps:
+# 1. Checks if specified ports (frontend and backend) are available to avoid conflicts.
+# 2. Ensures that no existing containers with the names "frontend" or "backend" are running to prevent conflicts.
+# 3. Builds Docker images for both frontend and backend applications.
+# 4. Creates persistent volumes for database and logging if they do not already exist.
+# 5. Runs the backend container on the specified port and with volume mounts.
+# 6. Runs the frontend container on the specified port.
+# 7. Displays the URLs for accessing the frontend UI after successful setup.
+
 # Exit the script if any command fails
 set -e
 
