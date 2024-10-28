@@ -65,6 +65,13 @@ Before installing Querius, ensure you have the following prerequisites:
     - If podman is setup correctly, you will be able to see detailed information about your host. 
 
 5. **Install Git**: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+6. **Install OpenSSL** : [Install OpenSSL](https://github.com/openssl/openssl/blob/master/INSTALL.md#quick-installation-guide)
+    > OpenSSL comes pre-installed on many Unix-based operating systems, such as Linux and macOS. Run below command to check if OpenSSL is already installed on your system
+    ```bash
+    openssl version
+    ```
+    > If OpenSSL is installed, this command will display the version of OpenSSL installed, like:
+    `OpenSSL 3.1.1 30 May 2023 (Library: OpenSSL 3.1.1 30 May 2023)`
 
 ### Installation
 
