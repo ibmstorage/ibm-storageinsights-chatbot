@@ -95,15 +95,15 @@ Before installing Querius, ensure you have the following prerequisites:
         ./generate_key.sh
         ```
    - The key will be printed on the terminal. Copy the key as it will be used in next step.
-4. To start an HTTPS server, generate self-signed certificates using the provided script [generate_certificate.sh](./generate_certificate.sh).
+4. To start an HTTPS server, generate self-signed certificates using the provided script [generate_certificates.sh](./generate_certificates.sh).
    - Make the script executable:
         ```bash
-        chmod +x generate_certificate.sh
+        chmod +x generate_certificates.sh
         ```
 
    - Run the script:
         ```bash
-        ./generate_certificate.sh
+        ./generate_certificates.sh
         ```
 
    - The script will prompt you to enter some details. Fill in the required information to proceed.
