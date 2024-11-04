@@ -1,0 +1,121 @@
+.newChatWindow {
+  text-align: center;
+  margin-top: 14.875rem;
+  color: white;
+
+  .chatLogo {
+    width: 6%;
+    height: 4.375rem;
+  }
+}
+
+.cardTitle {
+  color: rgb(197 197 197);
+  gap: 0.0625rem;
+  margin-top: 0.5rem;
+  font-size: 0.825rem;
+}
+
+.chatIcon {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.welcomeStatement {
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+
+  .limeText {
+    color: #f8ff73;
+  }
+
+  .blueText {
+    color: lightblue;
+  }
+}
+
+.routineContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  margin-top: 2rem;
+}
+
+.routineButtons {
+  color: white;
+  border: 0.06rem solid gray;
+  width: 18.75rem;
+  height: 5rem;
+  margin-right: 0.625rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+
+  &:hover {
+    background: #4e4d4d;
+    font-weight: bold;
+  }
+
+  background-color: rgba(79, 77, 77, 0.236);
+}
+
+.routineContent {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.previousActionButton {
+  color: white;
+  border: 0.0625rem solid gray;
+  width: 18.75rem;
+  height: 5rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  background-color: rgba(79, 77, 77, 0.236);
+
+  &:hover {
+    background: #444444;
+    font-weight: bold;
+  }
+
+  margin-right: 0.625rem;
+}
+
+.learnMoreButton {
+  color: white;
+  border: 0.0625rem solid gray;
+  width: 18.75rem;
+  height: 5rem;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  background-color: rgba(79, 77, 77, 0.236);
+
+  &:hover {
+    background: #444444;
+    font-weight: bold;
+  }
+}
+
+.morningCupOfTeaButton {
+  background-color: #1e1e1e;
+}
+
+.pastEventsButton {
+  background-color: #1e1e1e;
+}
+
+.morningCupOfTeaButton:hover,
+.pastEventsButton:hover {
+  background-color: #3b3b3b;
+}
+
+.inputDisabledTooltip {
+  padding: 0.55rem;
+  text-wrap: balance;
+  text-overflow: ellipsis;
+}
+
+.disabled {
+  cursor: not-allowed;
+}

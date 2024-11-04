@@ -1,0 +1,77 @@
+.message-main-container {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.message-content-container {
+  margin-bottom: 6rem;
+  flex-grow: 1;
+}
+
+.container-padding-bottom {
+  padding-bottom: 1rem;
+}
+
+.input-container:hover,
+.input-container:focus {
+  border-color: #cccccc;
+}
+
+.input-container-wrapper {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 28%);
+  max-width: calc(100% - 28%);
+  bottom: 0;
+  margin-top: 2rem;
+  padding-bottom: 2.5rem;
+  justify-content: space-between;
+  background-color: #1e1e1e;
+
+  .input-container {
+    display: flex;
+    align-self: center;
+    border-radius: 1.25rem;
+    border: 0.063rem solid #777777;
+    padding: 0.5rem;
+    width: 100%;
+    transition: border-color 0.2s ease;
+    background-color: rgba(79, 79, 79, 0.343);
+
+    .chat-input {
+      flex-grow: 1;
+      color: #ffffff;
+      border: none;
+      width: 100%;
+    }
+
+    .send-button {
+      background-color: rgba(79, 79, 79, 0);
+      color: #ffffff;
+      border: none;
+      border-radius: 0.5rem;
+
+      &:hover {
+        background: #444444;
+      }
+    }
+  }
+
+  .advisoryTextContent {
+    text-align: center;
+    font-size: 0.75rem;
+    color: lightgrey;
+    padding: 1rem;
+  }
+
+  .popoverContainer {
+    width: 100% !important;
+  }
+
+  .inputDisabledTooltip {
+    padding: 0.55rem;
+    text-wrap: balance;
+    text-overflow: ellipsis;
+  }
+}

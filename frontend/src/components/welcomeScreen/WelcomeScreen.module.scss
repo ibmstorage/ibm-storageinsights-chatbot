@@ -1,0 +1,103 @@
+.welcomePopupModal {
+  display: flex;
+  position: fixed;
+  bottom: 3.125rem;
+  top: 31%;
+  left: 36%;
+  background-color: black;
+  color: white;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  width: 35.125rem;
+  height: 20.9375rem;
+  box-shadow: '0rem 0rem 0.625rem rgba(0, 0, 0, 0.5)';
+  z-index: 9999;
+}
+
+.modalContentFrame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatImage {
+  margin-bottom: 0.625rem;
+  width: 14.875rem;
+  height: 13.625rem;
+  margin-left: 3.25rem;
+  margin-top: -0.9375rem;
+}
+
+.welcomechatHeader {
+  margin-top: -1.5rem;
+}
+
+.welcomeMessage {
+  margin-top: 0.625rem;
+  font-size: 1.25rem;
+  color: rgba(220, 220, 220, 0.9019607843);
+  margin-bottom: 0.625rem;
+  margin-left: 8.75rem;
+}
+
+.welcomeModalBotInformation {
+  margin-bottom: 1.25rem;
+  text-align: center;
+  color: gray;
+  margin-left: 2.4375rem;
+}
+
+.buttonSetWelcomeScreen {
+  display: flex;
+  justify-content: center;
+  margin-left: 3.5625rem;
+  margin-top: -0.625rem;
+}
+
+.modal {
+  > div {
+    background-color: #000000;
+    color: white;
+    border: 1px solid #6a6a6a;
+    margin-left: 14.625rem;
+    margin-bottom: 2.6875rem;
+  }
+}
+
+.modal {
+  > div > div:last-child {
+    display: none !important;
+  }
+}
+
+.buttonSet {
+  display: flex;
+  margin-left: 6rem;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  color: #250a0a;
+  background-color: lightblue;
+}
+
+.button:hover {
+  color: #250a0a;
+  background-color: lightblue;
+}
+
+.cds--modal {
+  background-color: var(--cds-overlay, rgba(22, 22, 22, 0.5));
+}
+
+.logo {
+  width: 7.25rem;
+  height: 6.625rem;
+  margin-left: 14.375rem;
+}
+
+.buttonSetText {
+  margin-left: 0.625rem;
+}

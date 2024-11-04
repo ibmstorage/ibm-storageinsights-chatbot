@@ -1,0 +1,22 @@
+.typing-indication-text {
+  padding: 0.625rem;
+  color: rgb(179, 179, 179);
+  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+.waitingMessage {
+  font-size: 1rem;
+  color: #e7e7e7bb;
+  font-style: italic;
+  animation: moderateBlink 1.5s ease-in-out infinite;
+}
+
+@keyframes moderateBlink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}

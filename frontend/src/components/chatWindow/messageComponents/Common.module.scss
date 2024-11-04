@@ -1,0 +1,283 @@
+.grid-container {
+  margin-bottom: 1.2rem;
+  border-radius: 0.5rem;
+  opacity: 0;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.9s, display 0.9s allow-discrete;
+  width: 90%;
+  max-width: 90%;
+  min-width: 90%;
+}
+
+.grid-visible {
+  opacity: 1;
+  display: block;
+}
+
+@starting-style {
+  .grid-visible {
+    opacity: 0;
+  }
+}
+
+.message {
+  padding: 0.525rem;
+  margin: 0.313rem;
+  border-radius: 0.313rem;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+
+  &.user {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  &.bot {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  &.icon {
+    position: absolute;
+    top: -1.25rem;
+    left: 0;
+  }
+
+  &.title {
+    position: absolute;
+    top: 0;
+    left: 2.5rem;
+  }
+
+  .sender-info {
+    display: flex;
+    margin-bottom: 0.313rem;
+
+    .icon {
+      margin-right: 0.625rem;
+    }
+  }
+
+  .text {
+    padding-left: 0.313rem;
+    line-height: 1.5rem;
+  }
+}
+
+.property-container {
+  background-color: #262626;
+  color: #ffffff;
+  padding: 0.625rem;
+  margin-bottom: 0.313rem;
+  font-size: 0.875rem;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(28, 28, 28, 0.3);
+}
+
+.property-content-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  grid-gap: 0.313rem;
+}
+
+.property-name,
+.property-value {
+  padding: 0.5rem;
+}
+
+.property-name {
+  color: #ffffff;
+  font-weight: 500;
+  grid-column: 1;
+}
+
+.property-value {
+  color: #c6c6c6;
+  grid-column: 2;
+}
+
+.exportButton {
+  background-color: #1e1e1e !important;
+  padding-top: 0.7rem;
+}
+
+.tagListContainer {
+  margin-top: 1rem;
+  max-width: 70%;
+}
+
+.actionButton {
+  margin: 0 0.7rem 0.8rem 0;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+
+  cursor: pointer;
+  &:hover {
+    background-color: #666;
+    color: whitesmoke;
+    font-weight: 500;
+  }
+  &:active {
+    transform: scale(0.95);
+  }
+}
+
+.botLogo {
+  width: 1.813rem;
+  height: 1.65rem;
+  margin-right: 0.625rem;
+  border-radius: 0.625rem;
+}
+
+.infoDataTableContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .infotext {
+    flex: 0 0 80%;
+    margin-right: 0.625rem;
+  }
+
+  .exportButtonWrapper {
+    flex: 0 0 10%;
+    text-align: right;
+  }
+
+  .exportBtnBackground {
+    background-color: #1e1e1e;
+  }
+}
+
+.feedbackDivPadding {
+  margin-left: 3rem;
+}
+
+.columnWordBreak {
+  word-break: break-word;
+}
+
+.chart-container {
+  transition: opacity 0.9s, display 0.9s allow-discrete;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 75rem;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  width: 0.625rem;
+  height: 1.25rem;
+  background-color: #000;
+  animation: typing 1s steps(10, end) infinite;
+}
+
+.noDataMessageContainer {
+  padding: 10px;
+  background-color: #333;
+  border: solid 1.5px #555;
+  border-radius: 10px;
+}
+
+// Styles for formatting Markdown text summary
+.markdown-content {
+  font-size: 1rem;
+  line-height: 1.6;
+
+  h3 {
+    font-size: 1.25rem;
+    margin-top: 0 !important;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  h3,
+  h4,
+  strong {
+    font-weight: 500;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 1.25rem;
+  }
+
+  ol {
+    list-style: decimal;
+    padding-left: 2rem;
+  }
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 0.0625rem solid #6f6f6f;
+    padding: 0.5rem;
+    text-align: left;
+  }
+}
+
+.chatMessage {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.moreDetails {
+  padding-top: 0.625rem;
+}
+
+.storageInsightsLink {
+  color: #93dfff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.storageInsightsLink:hover {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
