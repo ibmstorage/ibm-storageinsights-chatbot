@@ -1,0 +1,115 @@
+.loginCard {
+  border-radius: 0.625rem;
+}
+
+.loginContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.loginTitle {
+  padding-top: 1.875rem;
+  margin-bottom: 1rem;
+}
+
+.loginDesc {
+  width: 50%;
+  padding-right: 3.75rem;
+  padding-bottom: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  margin-top: 2.125rem;
+}
+
+.queriusLogo {
+  width: 6.25rem;
+  height: 5.75rem;
+}
+
+.loginFormInfo {
+  text-align: left;
+}
+
+.loginFormContent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.275rem 1.875rem 1.875rem 1.875rem;
+}
+
+.loginDescription {
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.loginFormInputField {
+  padding-bottom: 1.875rem;
+}
+
+.loginFormActions {
+  margin-top: 1.625rem;
+}
+
+.signUpButton {
+  flex: 1 !important;
+  padding-left: 23.1rem !important;
+  background-color: #93dfff;
+  color: #3e494d;
+}
+
+.signUpButton:hover {
+  background-color: #93dfff;
+  color: #3e494d;
+}
+
+.signUpButton > div:first-child {
+  margin-left: -21.0625rem !important;
+}
+
+.ackInlineLoading {
+  margin-left: 0.5rem;
+  min-height: 0;
+}
+
+.loginNotification {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.apiKeyField {
+  position: relative;
+  height: 6rem;
+  padding-bottom: 1.875rem;
+}
+
+.loginFormInputField {
+  padding-right: 2.5rem;
+  height: 100%;
+}
+
+.loginFormIApiKeyField {
+  width: 27rem;
+  padding-right: 2.5rem;
+  height: 2.6rem;
+}
+
+.infoIcon {
+  position: absolute;
+  left: 3.125rem;
+  cursor: pointer;
+}
+
+.tooltipContent {
+  font-size: 0.75rem;
+}
+
+.tooltipContent a {
+  color: black;
+}
