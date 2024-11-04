@@ -1,0 +1,17 @@
+@use '@carbon/react/scss/themes';
+@use '@carbon/react/scss/theme' with (
+  $theme: themes.$g100
+);
+@use '@carbon/react';
+@use '@carbon/colors';
+
+@use 'carbon';
+@use '@carbon/grid';
+
+:root {
+  @include theme.theme();
+}
+
+body {
+  background-color: theme.$background;
+}

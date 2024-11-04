@@ -1,0 +1,43 @@
+# First stage: Build the React app
+FROM node:18 AS build
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json .
+
+# Set environment variables
+ENV REACT_APP_BACKEND_BASE_URL=************
+ENV REACT_APP_SECRET_KEY=************
+
+# Install dependencies
+RUN npm install --legacy-peer-deps
+
+# Copy the rest of the application code
+COPY . .
+
+# Clean the dist folder if it exists
+RUN rm -rf dist/*
+
+# Build the React app for production
+RUN npm run prod
+
+# Second stage: Set up NGINX to serve the built app
+FROM nginx:1.24.0-alpine
+
+# Copy the SSL certificate files to the container for HTTPS
+COPY certificates/certificate.crt /etc/nginx/certificate.crt
+COPY certificates/certificate.key /etc/nginx/certificate.key
+
+# Copy the nginx configuration file
+COPY nginx.conf /etc/nginx/nginx.conf
+
+# Copy the build output from the previous stage to the nginx/html directory
+COPY --from=build /app/dist /usr/share/nginx/html
+
+# Expose ports for HTTP and HTTPS
+EXPOSE 9501
+EXPOSE 9502
+
+# Start NGINX in the foreground when the container starts
+CMD ["nginx", "-g", "daemon off;"]

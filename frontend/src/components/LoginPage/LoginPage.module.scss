@@ -1,0 +1,14 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-height: 100vh;
+}
+
+.loginForm {
+  max-width: 68.75rem;
+  width: 68.75rem;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+}

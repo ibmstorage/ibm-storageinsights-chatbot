@@ -1,0 +1,53 @@
+@use '@carbon/react';
+@use 'carbon-components-react';
+@import '@carbon/themes/scss/themes';
+@import 'carbon-components/scss/globals/scss/styles.scss';
+@import '@carbon/charts/styles.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#chatInputContainer .cds--text-input {
+  background-color: rgba(79, 79, 79, 0);
+  color: #fff;
+  border: none;
+  caret-color: #888;
+}
+
+#chatInputContainer .cds--text-input:active,
+#chatInputContainer .cds--text-input:focus {
+  outline: none;
+}
+
+#chatInputContainer .cds--text-input::placeholder {
+  color: rgb(138, 138, 138);
+}
+
+#chatInputContainer .cds--btn--primary:active,
+#chatInputContainer .cds--btn--primary:focus {
+  box-shadow: none;
+}
+
+.cds--text-input {
+  caret-color: #888;
+}
+
+#apiKeyDetailsTable .cds--data-table-content {
+  height: 15rem !important;
+}
+
+#metricsLineChart .cds--chart-holder {
+  height: 31.25rem !important;
+  width: 43.75rem !important;
+}
