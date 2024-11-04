@@ -72,8 +72,9 @@ class UserLoginModule:
                     MESSAGE: INVALID_CREDENTIALS_MESSAGE,
                     IDENTIFIER: TEXT,
                 }
-                return None, None, error_response, status_code
+                return None, error_response, status_code
 
         except Exception as e:
             print(f"Error logging in user: {e}")
-            return None, None, "Failed to login user.", 500
+            return None, "Failed to login user.", 500
+
