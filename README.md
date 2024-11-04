@@ -95,7 +95,24 @@ Before installing Querius, ensure you have the following prerequisites:
         ./generate_key.sh
         ```
    - The key will be printed on the terminal. Copy the key as it will be used in next step.
-4. Set environment variables:
+4. To start an HTTPS server, generate self-signed certificates using the provided script [generate_certificate.sh](./generate_certificate.sh).
+   - Make the script executable:
+        ```bash
+        chmod +x generate_certificate.sh
+        ```
+
+   - Run the script:
+        ```bash
+        ./generate_certificate.sh
+        ```
+
+   - The script will prompt you to enter some details. Fill in the required information to proceed.
+
+   - The generated certificates will be stored in:
+       - `frontend/certificates/`
+       - `backend/certificates/`
+   > **Note:** Self-signed certificates work only with Google Chrome. For other browsers, manually copy the CA-certified certificates to the `frontend/certificates/` and `backend/certificates/` directories as needed.
+5. Set environment variables:
 
     #### 1. Setting variables for Frontend
     1. Go to `frontend/`.
@@ -123,27 +140,27 @@ Before installing Querius, ensure you have the following prerequisites:
         - `ORIGIN`: URL where the frontend is hosted. If your are running the chatbot on a Host with IP `9.200.34.201`, the URL will be `https://9.200.34.201:9502`. Please change the Host IP according to your infrastructure.
         - `SECRET_KEY`: Refer to step 3 for copying the newly generated secret key.
 
-5. Go back to parent directory `ibm-storageinsights-chatbot/`.
+6. Go back to parent directory `ibm-storageinsights-chatbot/`.
     ```bash
     cd ..
     ```
-6. You will find an install script `install_si_chatbot.sh`. Some values are pre-configured but can be changed as per your infrastructure. These values are:
+7. You will find an install script `install_si_chatbot.sh`. Some values are pre-configured but can be changed as per your infrastructure. These values are:
      - `FRONTEND_IMAGE_TAG`
      - `BACKEND_IMAGE_TAG`
      - `VOLUME_NAME`
      - `BACKEND_PORT`
      - `FRONTEND_PORT`
-7. Make the script executable using the command:
+8. Make the script executable using the command:
 
       ```bash
       chmod +x install_si_chatbot.sh
       ```
-8. Run the script:
+9. Run the script:
 
       ```bash
       ./install_si_chatbot.sh
       ```
-9. Access the frontend UI from the link:
+10. Access the frontend UI from the link:
       ```bash
       https://<host>:9502/querius/
       ```
