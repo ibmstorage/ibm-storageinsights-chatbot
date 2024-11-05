@@ -4,17 +4,19 @@
   <img src="./querius.png" alt="Querius Logo" width="300" height="300">
 </div>
  
-<h2 align="center">Querius</h2>
+<h2 align="center">IQuerius</h2>
 
 ---
 
 ## Introduction
 
-### What is Querius?
+### What is IQuerius?
 
-Querius is an open-source chatbot created by the Storage Insights team to enable natural language interactions with Storage Insights REST APIs. By leveraging large language models (LLMs) and advanced prompt engineering, it intelligently detects user intent, extracts relevant entities, and seamlessly makes API calls.
+[IBM Storage Insights](https://www.ibm.com/products/storage-insights) is an observability and AIOps platform for storage systems which helps administrators and SRE to monitor and manage their storage fleet. 
 
-**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** Querius provides a conversational, intuitive approach for managing and accessing storage data and insights.
+IQuerius is an open-source chatbot created by the [IBM Storage Insights](https://www.ibm.com/products/storage-insights) team to enable natural language interactions. IQuerius enables users to interact & chat with [IBM Storage Insights](https://www.ibm.com/products/storage-insights) in natural language form to assist in easy observability and monitoring. By leveraging large language models (LLMs) and advanced prompt engineering, the bot intelligently detects user intent, extracts relevant entities, and seamlessly makes [IBM Storage Insights](https://www.ibm.com/products/storage-insights) API calls to fulfil user queries.
+
+**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** IQuerius provides a conversational, intuitive approach for managing and accessing storage data and insights.
 
 
 ### Key Features
@@ -25,7 +27,7 @@ Querius is an open-source chatbot created by the Storage Insights team to enable
 
 ### Supported APIs
 
-Querius currently supports the following APIs:
+IQuerius currently supports the following IBM Storage Insights APIs:
 
 - Storage system alerts
 - Storage system metrics
@@ -36,6 +38,7 @@ Querius currently supports the following APIs:
 - Storage system volumes
 - Storage system details
 
+> **Note**: **IQueries** is a sample Do-It-Yourself (DIY) GenAI-enabled observability chatbot for IBM Storage Insights, provided on an as-is basis. The functionality currently includes a limited set of IBM Storage Insights REST API capabilities, as listed above. Users are encouraged to extend and adapt this project to incorporate additional REST API endpoints as desired. **IQueries** is a community-driven project, and IBM does not offer formal support.
 ---
 
 ## Installation
@@ -55,7 +58,9 @@ Before installing Querius, ensure you have the following prerequisites:
     > Keep note of the generated `Watsonx API key`.
 
 3. **Storage Insights API Key**: Refer section [Generating a REST API key](https://www.ibm.com/docs/en/storage-insights?topic=configuring-user-access-management). 
-    > This Storage Insights api key will be used during login.
+    > External Rest APIs can only be accessed with IBM Storage Insights Pro license.
+    
+    >  This IBM Storage Insights External Rest API key will be used during login.
 
 4. **Podman**: [Install Podman](https://podman.io/docs/installation).
     - You can then verify the installation information using:
