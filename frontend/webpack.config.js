@@ -22,9 +22,9 @@ require('dotenv').config();
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    path: path.resolve(__dirname, 'dist/querius'),
+    path: path.resolve(__dirname, 'dist/chatbot'),
     filename: '[name].[contenthash].js',
-    publicPath: '/querius/',
+    publicPath: '/chatbot/',
     clean: true,
   },
   resolve: {

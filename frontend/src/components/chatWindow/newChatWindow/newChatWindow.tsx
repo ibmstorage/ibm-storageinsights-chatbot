@@ -62,7 +62,7 @@ const NewChatWindow: React.FC<NewChatWindowProps> = ({
         </div>
         <p className={styles.welcomeStatement}>
           <span className={styles.limeText}>{en.welcomeStatementStart}</span>
-          <strong className={styles.blueText}>{en.querius}</strong>
+          <strong className={styles.blueText}>{en.ibmStorageInsightsChatbot}</strong>
           <span className={styles.limeText}>{en.welcomeStatementEnd}</span>
         </p>
       </div>
