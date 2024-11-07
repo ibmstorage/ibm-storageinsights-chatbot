@@ -29,15 +29,15 @@ module.exports = merge(commonConfig, {
     devMiddleware: {
       index: true,
       mimeTypes: { phtml: 'text/html' },
-      publicPath: '/querius/',
+      publicPath: '/chatbot/',
       serverSideRender: true,
       writeToDisk: true,
     },
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
-    port: 8080,
-    open: ['/querius'],
+    port: 8081,
+    open: ['/chatbot'],
     hot: true,
     historyApiFallback: {
       index: 'public/index.html',

@@ -18,7 +18,7 @@ import { BOT, USER, dataIdentifier } from 'src/utils/Constants';
 import commonStyles from './Common.module.scss';
 import MessageWithDatatable from './MessageWithDatatable';
 import ActionsTagList from './ActionsTagList';
-import chatbotLogo from '../../../assets/Querius_Logo.png';
+import chatbotLogo from '../../../assets/Chatbot_Logo.png';
 import UserFeedback from '../userFeedback/UserFeedback';
 import MessageWithChart from './MessageWithChart';
 import TextSummary from './TextSummary';
