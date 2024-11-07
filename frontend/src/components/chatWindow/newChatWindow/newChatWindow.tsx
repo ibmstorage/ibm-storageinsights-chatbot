@@ -15,7 +15,7 @@
 import React, { useState } from 'react';
 import en from 'src/locals/en.json';
 import { Popover, PopoverContent } from '@carbon/react';
-import chatbotLogo from '../../../assets/Querius_Logo.png';
+import chatbotLogo from '../../../assets/Chatbot_Logo.png';
 import styles from './newChatWindow.module.scss';
 
 interface NewChatWindowProps {

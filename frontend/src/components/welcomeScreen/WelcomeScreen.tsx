@@ -19,7 +19,7 @@
 import React from 'react';
 import styles from 'src/components/welcomeScreen/WelcomeScreen.module.scss';
 import { Modal, Button } from 'carbon-components-react';
-import imImage from 'src/assets/Querius_Logo.png';
+import imImage from 'src/assets/Chatbot_Logo.png';
 import en from 'src/locals/en.json';
 
 interface WelcomeScreenProps {

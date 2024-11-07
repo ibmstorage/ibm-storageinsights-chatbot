@@ -15,7 +15,7 @@
 import React from "react";
 
 import { Help, UserAvatarFilled } from "@carbon/icons-react";
-import chatbotLogo from "src/assets/Querius_Logo.png";
+import chatbotLogo from "src/assets/Chatbot_Logo.png";
 import en from "src/locals/en.json";
 import { useNavigate } from "react-router-dom";
 import {
