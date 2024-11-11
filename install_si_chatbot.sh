@@ -102,5 +102,5 @@ echo -e "\033[32mSuccess:\033[0m Frontend server is now running on port $FRONTEN
 
 # Step 8: Frontend UI access
 print_divider
-echo -e "\033[36mAccess the frontend UI at:\033[0m https://<host>:$FRONTEND_PORT/querius/"
+echo -e "\033[36mAccess the frontend UI at:\033[0m https://<host>:$FRONTEND_PORT/chatbot/"
 print_divider
