@@ -5,7 +5,7 @@
 
   .chatLogo {
     width: 6%;
-    height: 4.375rem;
+    height: 3.35rem;
   }
 }
 
@@ -19,6 +19,21 @@
 .chatIcon {
   width: 3.75rem;
   height: 3.75rem;
+}
+
+.chatbot{
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.usingApis{
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
+  font-size: 1.25rem !important;
+}
+
+.title{
+display: flex;
 }
 
 .welcomeStatement {

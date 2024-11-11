@@ -19,8 +19,8 @@
   "like": "Like",
   "disLike": "Dislike",
   "chatbotLogo": "Chatbot Logo",
-  "advisoryMessage": "IBM Storage Insights Chatbot may not always be accurate. Consider checking important information directly in your ",
-  "textInputPlaceholder": "Message IBM Storage Insights Chatbot...",
+  "advisoryMessage": "Chatbot using IBM Storage Insights APIs may not always be accurate. Consider checking important information directly in your ",
+  "textInputPlaceholder": "Message Chatbot using IBM Storage Insights APIs...",
   "morningCupOfCoffeeQuery": "How are my storage systems doing? Are there any critical alerts and notifications?",
   "inValidQueryError": "You need to specify: storage_system_id, duration",
   "inValidQueryErrorMessage": "Uh-oh! It seems there's a glitch. We're on it!",
@@ -31,7 +31,7 @@
   "provideAnswerPrompt": "Please provide an answer",
   "usernameLengthInvalidPrompt": "Username must be at least 5 characters long and should not contain spaces in between.",
   "lastNameEmptyPrompt": "Last name cannot be empty and should not contain spaces in between.",
-  "createYourIBMStorageInsightsChatbotAccount": "Create your IBM Storage Insights Chatbot account",
+  "createYourIBMStorageInsightsChatbotAccount": "Create your Chatbot using IBM Storage Insights APIs account",
   "signIn": "Sign In",
   "signUp": "Sign Up",
   "SigningUpLoading": "Signing Up...",
@@ -58,7 +58,7 @@
   "confirmPassword": "Confirm Password",
   "configureApiKey": "Configure API Key",
   "releaseNotes": "Release Notes",
-  "welcomeMessage": "IBM Storage Insights Chatbot - Storage Mastery Made Easy!",
+  "welcomeMessage": "Chatbot using IBM Storage Insights APIs - Storage Mastery Made Easy!",
   "welcomeModalInformation": "We strive to assist you in finding your desired information.",
   "createAnAccount": "Create an Account",
   "signInAccount": "Sign In to your account",
@@ -143,5 +143,6 @@
   "IbmStorageInsights": "IBM Storage Insights",
   "IbmStorageInsightsTenant": "IBM Storage Insights tenant",
   "generatingAPIKey": "Generating a REST API key",
-  "ibmStorageInsightsChatbot":"IBM Storage Insights Chatbot"
+  "chatBot": "Chatbot",
+  "usingIBMStorageInsightsAPIs": "using IBM Storage Insights APIs"
 }

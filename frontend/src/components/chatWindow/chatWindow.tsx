@@ -107,7 +107,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({
             className={styles.queriusLogo}
           />
         </div>
-        <div className={styles.chatbotTitle}>{en.ibmStorageInsightsChatbot}</div>
+        <div className={styles.chatbotTitle}><div className={styles.chatbot}>{en.chatBot}</div><div className={styles.usingApis}>{en.usingIBMStorageInsightsAPIs}</div></div>
         {currentTenantId && (
           <>
             <div className={styles.currentTenantId}>
