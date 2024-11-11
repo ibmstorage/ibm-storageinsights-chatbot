@@ -1,10 +1,10 @@
 ---
 
 <div align="center">
-  <img src="./chatbot.png" alt="Querius Logo" width="300" height="300">
+  <img src="./chatbot.png" alt="Chatbot Logo" width="300" height="300">
 </div>
  
-<h2 align="center">IQuerius</h2>
+<h2 align="center">IChatbot</h2>
 
 ---
 

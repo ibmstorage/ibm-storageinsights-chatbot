@@ -56,7 +56,7 @@ const NewChatWindow: React.FC<NewChatWindowProps> = ({
         <div>
           <img
             src={chatbotLogo}
-            alt={en.queriusLogo}
+            alt={en.chatbotLogo}
             className={styles.chatLogo}
           />
         </div>

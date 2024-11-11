@@ -1,6 +1,4 @@
 {
-  "querius": "Querius",
-  "queriusLogo": "Querius Logo",
   "apikeyConfigMessage": "To begin chatting, please configure your Tenant ID and API keys.",
   "maxRowSelectionWarning": "Selection limit reached. Cannot select more rows.",
   "textInputRequiredError": "Tenant Name, Tenant ID, and API Key fields are required.",
@@ -31,7 +29,7 @@
   "provideAnswerPrompt": "Please provide an answer",
   "usernameLengthInvalidPrompt": "Username must be at least 5 characters long and should not contain spaces in between.",
   "lastNameEmptyPrompt": "Last name cannot be empty and should not contain spaces in between.",
-  "createYourIBMStorageInsightsChatbotAccount": "Create your Chatbot using IBM Storage Insights APIs account",
+  "createYourChatbotAccount": "Create your Chatbot using IBM Storage Insights APIs account",
   "signIn": "Sign In",
   "signUp": "Sign Up",
   "SigningUpLoading": "Signing Up...",
