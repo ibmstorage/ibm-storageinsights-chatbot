@@ -4,19 +4,19 @@
   <img src="./chatbot.png" alt="Chatbot Logo" width="300" height="300">
 </div>
  
-<h2 align="center">IChatbot</h2>
+<h2 align="center">Chatbot using IBM Storage Insights APIs</h2>
 
 ---
 
 ## Introduction
 
-### What is IChatbot?
+### What is Chatbot using IBM Storage Insights APIs?
 
 [IBM Storage Insights](https://www.ibm.com/products/storage-insights) is an observability and AIOps platform for storage systems which helps administrators and SRE to monitor and manage their storage fleet. 
 
-IChatbot is an open-source chatbot created by the [IBM Storage Insights](https://www.ibm.com/products/storage-insights) team to enable natural language interactions. IChatbot enables users to interact & chat with [IBM Storage Insights](https://www.ibm.com/products/storage-insights) in natural language form to assist in easy observability and monitoring. By leveraging large language models (LLMs) and advanced prompt engineering, the bot intelligently detects user intent, extracts relevant entities, and seamlessly makes [IBM Storage Insights](https://www.ibm.com/products/storage-insights) API calls to fulfil user queries.
+This is an open-source chatbot created by the [IBM Storage Insights](https://www.ibm.com/products/storage-insights) team to enable natural language interactions. It enables users to interact & chat with [IBM Storage Insights](https://www.ibm.com/products/storage-insights) in natural language form to assist in easy observability and monitoring. By leveraging large language models (LLMs) and advanced prompt engineering, the bot intelligently detects user intent, extracts relevant entities, and seamlessly makes [IBM Storage Insights](https://www.ibm.com/products/storage-insights) API calls to fulfil user queries.
 
-**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** IChatbot provides a conversational, intuitive approach for managing and accessing storage data and insights.
+**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** this chatbot provides a conversational, intuitive approach for managing and accessing storage data and insights.
 
 
 ### Key Features
@@ -27,7 +27,7 @@ IChatbot is an open-source chatbot created by the [IBM Storage Insights](https:/
 
 ### Supported APIs
 
-IChatbot currently supports the following IBM Storage Insights APIs:
+This chatbot currently supports the following IBM Storage Insights APIs:
 
 - Storage system alerts
 - Storage system metrics
@@ -38,14 +38,14 @@ IChatbot currently supports the following IBM Storage Insights APIs:
 - Storage system volumes
 - Storage system details
 
-> **Note**: **IQueries** is a sample Do-It-Yourself (DIY) GenAI-enabled observability chatbot for IBM Storage Insights, provided on an as-is basis. The functionality currently includes a limited set of IBM Storage Insights REST API capabilities, as listed above. Users are encouraged to extend and adapt this project to incorporate additional REST API endpoints as desired. **IQueries** is a community-driven project, and IBM does not offer formal support.
+> **Note**: This is a sample Do-It-Yourself (DIY) GenAI-enabled observability chatbot for IBM Storage Insights, provided on an as-is basis. The functionality currently includes a limited set of IBM Storage Insights REST API capabilities, as listed above. Users are encouraged to extend and adapt this project to incorporate additional REST API endpoints as desired. This is a community-driven project, and IBM does not offer formal support.
 ---
 
 ## Installation
 
 ### Prerequisites
 
-Before installing Querius, ensure you have the following prerequisites:
+Before installing the chatbot, ensure you have the following prerequisites:
 
 1. **Sign up for IBM watsonx as a Service**: [Sign up for IBM watsonx as a Service](https://www.ibm.com/docs/en/watsonx/saas?topic=started-signing-up-watsonx).
     > Select `DALLAS` region as the LLM availability differs from region to region.
@@ -167,7 +167,7 @@ Before installing Querius, ensure you have the following prerequisites:
       ```
 10. Access the frontend UI from the link:
       ```bash
-      https://<host>:9502/querius/
+      https://<host>:9502/chatbot/
       ```
 ---
 
