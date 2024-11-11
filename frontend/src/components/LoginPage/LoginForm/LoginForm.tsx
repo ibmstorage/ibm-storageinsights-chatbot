@@ -22,7 +22,7 @@ import {
 import { InlineLoading, PasswordInput, Tooltip } from "@carbon/react";
 import { CheckboxGroup, Checkbox } from "@carbon/react";
 import styles from "src/components/LoginPage/LoginForm/LoginForm.module.scss";
-import botLogoSrc from "src/assets/Querius_Logo.png";
+import botLogoSrc from "src/assets/Chatbot_Logo.png";
 import en from "src/locals/en.json";
 import { login } from "src/services/loginService";
 import { useNavigate } from "react-router-dom";

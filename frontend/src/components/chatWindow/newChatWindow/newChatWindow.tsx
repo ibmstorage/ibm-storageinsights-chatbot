@@ -15,7 +15,7 @@
 import React, { useState } from 'react';
 import en from 'src/locals/en.json';
 import { Popover, PopoverContent } from '@carbon/react';
-import chatbotLogo from '../../../assets/Querius_Logo.png';
+import chatbotLogo from '../../../assets/Chatbot_Logo.png';
 import styles from './newChatWindow.module.scss';
 
 interface NewChatWindowProps {
@@ -56,13 +56,12 @@ const NewChatWindow: React.FC<NewChatWindowProps> = ({
         <div>
           <img
             src={chatbotLogo}
-            alt={en.queriusLogo}
+            alt={en.chatbotLogo}
             className={styles.chatLogo}
           />
         </div>
         <p className={styles.welcomeStatement}>
           <span className={styles.limeText}>{en.welcomeStatementStart}</span>
-          <strong className={styles.blueText}>{en.querius}</strong>
           <span className={styles.limeText}>{en.welcomeStatementEnd}</span>
         </p>
       </div>

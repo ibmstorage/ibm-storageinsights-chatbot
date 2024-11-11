@@ -15,7 +15,7 @@
 import React from "react";
 
 import { Help, UserAvatarFilled } from "@carbon/icons-react";
-import chatbotLogo from "src/assets/Querius_Logo.png";
+import chatbotLogo from "src/assets/Chatbot_Logo.png";
 import en from "src/locals/en.json";
 import { useNavigate } from "react-router-dom";
 import {
@@ -107,7 +107,7 @@ const ChatWindow: React.FC<ChatWindowProps> = ({
             className={styles.queriusLogo}
           />
         </div>
-        <div className={styles.chatbotTitle}>{en.querius}</div>
+        <div className={styles.chatbotTitle}><div className={styles.chatbot}>{en.chatBot}</div><div className={styles.usingApis}>{en.usingIBMStorageInsightsAPIs}</div></div>
         {currentTenantId && (
           <>
             <div className={styles.currentTenantId}>

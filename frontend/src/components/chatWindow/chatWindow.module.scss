@@ -17,8 +17,17 @@
 .chatbotTitle {
   margin-right: auto;
   color: lightblue;
+  display: flex;
+}
+
+.chatbot{
   font-size: 1.4rem;
   font-weight: 600;
+}
+
+.usingApis{
+  margin-top: 0.3rem;
+  margin-left: 0.3rem;
 }
 
 .flex-container {

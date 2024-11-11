@@ -1,22 +1,22 @@
 ---
 
 <div align="center">
-  <img src="./querius.png" alt="Querius Logo" width="300" height="300">
+  <img src="./chatbot.png" alt="Chatbot Logo" width="300" height="300">
 </div>
  
-<h2 align="center">IQuerius</h2>
+<h2 align="center">IChatbot</h2>
 
 ---
 
 ## Introduction
 
-### What is IQuerius?
+### What is IChatbot?
 
 [IBM Storage Insights](https://www.ibm.com/products/storage-insights) is an observability and AIOps platform for storage systems which helps administrators and SRE to monitor and manage their storage fleet. 
 
-IQuerius is an open-source chatbot created by the [IBM Storage Insights](https://www.ibm.com/products/storage-insights) team to enable natural language interactions. IQuerius enables users to interact & chat with [IBM Storage Insights](https://www.ibm.com/products/storage-insights) in natural language form to assist in easy observability and monitoring. By leveraging large language models (LLMs) and advanced prompt engineering, the bot intelligently detects user intent, extracts relevant entities, and seamlessly makes [IBM Storage Insights](https://www.ibm.com/products/storage-insights) API calls to fulfil user queries.
+IChatbot is an open-source chatbot created by the [IBM Storage Insights](https://www.ibm.com/products/storage-insights) team to enable natural language interactions. IChatbot enables users to interact & chat with [IBM Storage Insights](https://www.ibm.com/products/storage-insights) in natural language form to assist in easy observability and monitoring. By leveraging large language models (LLMs) and advanced prompt engineering, the bot intelligently detects user intent, extracts relevant entities, and seamlessly makes [IBM Storage Insights](https://www.ibm.com/products/storage-insights) API calls to fulfil user queries.
 
-**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** IQuerius provides a conversational, intuitive approach for managing and accessing storage data and insights.
+**Powered by [IBM Watsonx](https://www.ibm.com/watsonx) and utilizing both Granite and Llama (Built with Llama) LLMs,** IChatbot provides a conversational, intuitive approach for managing and accessing storage data and insights.
 
 
 ### Key Features
@@ -27,7 +27,7 @@ IQuerius is an open-source chatbot created by the [IBM Storage Insights](https:/
 
 ### Supported APIs
 
-IQuerius currently supports the following IBM Storage Insights APIs:
+IChatbot currently supports the following IBM Storage Insights APIs:
 
 - Storage system alerts
 - Storage system metrics

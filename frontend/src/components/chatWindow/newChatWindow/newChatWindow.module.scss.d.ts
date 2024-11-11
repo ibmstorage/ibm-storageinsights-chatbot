@@ -17,6 +17,9 @@
  */
 
 declare const styles: {
+    title: any;
+    chatbot: string | undefined;
+    usingApis: string | undefined;
     popoverContainer: string;
     popoverContainer: string;
     "newChatIcon": string;
