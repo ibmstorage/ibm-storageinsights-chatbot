@@ -11,7 +11,7 @@
   "defaultErrorMessage": "I'm still learning! Can you rephrase your question in a different way, or maybe I can help you with something else?",
   "typingIndicatorMessage": "Go ahead, I'm listening...",
   "welcomeStatementStart": "Hi, ",
-  "welcomeStatementEnd": "How can I help?",
+  "welcomeStatementEnd": "how can I help?",
   "exportIconDesc": "Export as CSV",
   "previousPage": "Previous page",
   "nextPage": "Next page",
