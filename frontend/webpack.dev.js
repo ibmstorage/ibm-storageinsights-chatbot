@@ -36,7 +36,7 @@ module.exports = merge(commonConfig, {
     static: {
       directory: path.resolve(__dirname, 'dist'),
     },
-    port: 8081,
+    port: 8080,
     open: ['/chatbot'],
     hot: true,
     historyApiFallback: {
