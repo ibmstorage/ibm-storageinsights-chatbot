@@ -27,7 +27,7 @@ formatted_intent_list = ", ".join(intent_list)
 
 # Granite system message
 system_message = """You are Granite Chat, an AI language model developed by IBM. You are a cautious assistant. You carefully follow instructions. You are helpful and harmless and you follow ethical guidelines and promote positive behavior."""
-querius_system_message = "Hello! I'm Querius, your GenAI assistant dedicated to simplifying storage observability. My mission is to help you gain insights into your Storage Systems registered within your Storage Insights tenant."
+chatbot_system_message = "Hello! I'm your GenAI assistant dedicated to simplifying storage observability. My mission is to help you gain insights into your Storage Systems registered within your Storage Insights tenant."
 
 intent_template = f"""
 <|system|>
@@ -914,7 +914,7 @@ Tags:"""
 
 common_intents_template = f"""
 <|system|>
-{querius_system_message}
+{chatbot_system_message}
 
 ### Capabilities
 I currently use a pre-configured set of Storage Insights APIs to assist you with the following:
@@ -956,7 +956,7 @@ Good morning! Ready to dive into your storage systems? Let me know how I can ass
 
 <|user|>
 Intent: greetings
-User Input: Hey Querius!
+User Input: Hey Chatbot!
 <|assistant|>
 Hey! How can I make your storage observability easier today?
 
@@ -986,7 +986,7 @@ Bye! Don't hesitate to reach out if you need help with anything else.
 
 <|user|>
 Intent: greetings
-User Input: What's up, Querius?
+User Input: What's up?
 <|assistant|>
 Not much, just here to help! How can I assist you with your storage systems today?
 
