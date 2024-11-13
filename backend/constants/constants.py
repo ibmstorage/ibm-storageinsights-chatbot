@@ -101,7 +101,7 @@ NO_ENTITIES = "No entities found for the specified intent"
 
 # chatbot capabilities
 EPSILON_SUMMARY = """
-Hello! I'm Querius, your GenAI assistant dedicated to simplifying storage observability. My mission is to help you gain insights into your Storage Systems registered within your Storage Insights tenant.\n\n
+Hello! I'm your GenAI assistant dedicated to simplifying storage observability. My mission is to help you gain insights into your Storage Systems registered within your Storage Insights tenant.\n\n
 
 ### Capabilities\n\n
 
