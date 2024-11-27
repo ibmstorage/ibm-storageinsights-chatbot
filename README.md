@@ -189,7 +189,7 @@ Before installing the chatbot, ensure you have the following prerequisites:
 
 1. Video guide for [IBM Watsonx as a service](https://www.youtube.com/watch?v=EjiVdAPd894)
 2. Video guide for [Chatbot Installation](https://www.youtube.com/watch?v=HDwV3U7rduc)
-3. User guide for [Chatbot Features Overview](https://www.youtube.com/watch?v=wzmwGFO62jk) 
+3. User guide for [Chatbot Features Overview](https://www.youtube.com/watch?v=PpUsL_WqNoE) 
 
 ## License
 
