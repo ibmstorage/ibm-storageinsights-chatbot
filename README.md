@@ -125,7 +125,7 @@ Before installing the chatbot, ensure you have the following prerequisites:
         cd frontend/
         ```
     2. Open `dockerfile.frontend` in a text editor and add values for `REACT_APP_BACKEND_BASE_URL` and `REACT_APP_SECRET_KEY`:
-        - `REACT_APP_BACKEND_BASE_URL`: Backend server URL where the backend APIs are hosted. If your are running the chatbot on a Host with IP `9.200.34.201`, the URL will be `https://9.200.34.201:9508/chatbot`. Please change the Host IP according to your infrastructure.
+        - `REACT_APP_BACKEND_BASE_URL`: Backend server URL where the backend APIs are hosted. If your are running the chatbot on a Host with IP `9.200.34.201`, the URL will be `https://9.200.34.201:9508`. Please change the Host IP according to your infrastructure.
         - `REACT_APP_SECRET_KEY`: Refer to Step 3 for copying the newly generated secret key.
 
     3. After setting up the necessary variables, go pack to the parent directory using below command:
