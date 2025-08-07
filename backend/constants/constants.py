@@ -381,6 +381,10 @@ X_API_TOKEN = "x-api-token"
 ACCEPT = "Accept"
 APPLICATION_JSON = "application/json"
 X_API_KEY = "x-api-key"
+X_INTEGRATION = "x-integration"
+X_INTEGRATION_VERSION = "x-integration-version"
+STORAGE_INSIGHTS_CHATBOT = "storage-insights-chatbot"
+VERSION = "v1"
 
 # Miscellaneous
 BASE_URL = "https://insights.ibm.com/restapi/v1/"
