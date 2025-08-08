@@ -23,7 +23,7 @@ from backend.constants.constants import (
     X_API_TOKEN,
     ACCEPT,
     APPLICATION_JSON,
-    X_INTEGRATION,
+    X_API_INTEGRATION,
     X_INTEGRATION_VERSION,
     STORAGE_INSIGHTS_CHATBOT,
     VERSION,
@@ -109,7 +109,7 @@ class API(object):
         headers = {
             X_API_TOKEN: cls._get_api_token(base_url, tenant_id, api_key),
             ACCEPT: APPLICATION_JSON,
-            X_INTEGRATION: STORAGE_INSIGHTS_CHATBOT,
+            X_API_INTEGRATION: STORAGE_INSIGHTS_CHATBOT,
             X_INTEGRATION_VERSION: VERSION
         }
 
