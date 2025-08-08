@@ -18,7 +18,7 @@ from backend.constants.constants import (
     X_API_KEY,
     ACCEPT,
     APPLICATION_JSON,
-    X_API_INTEGRATION,
+    X_INTEGRATION,
     X_INTEGRATION_VERSION,
     STORAGE_INSIGHTS_CHATBOT,
     VERSION
@@ -46,7 +46,7 @@ class TokenGenerationService:
         headers = {
             X_API_KEY: api_key,
             ACCEPT: APPLICATION_JSON,
-            X_API_INTEGRATION: STORAGE_INSIGHTS_CHATBOT,
+            X_INTEGRATION: STORAGE_INSIGHTS_CHATBOT,
             X_INTEGRATION_VERSION: VERSION
         }
 
