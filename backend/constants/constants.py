@@ -383,7 +383,7 @@ APPLICATION_JSON = "application/json"
 X_API_KEY = "x-api-key"
 X_API_INTEGRATION = "x-api-integration"
 X_INTEGRATION_VERSION = "x-integration-version"
-STORAGE_INSIGHTS_CHATBOT = "storage-insights-chatbot"
+STORAGE_INSIGHTS_CHATBOT = "si-chatbot"
 VERSION = "v1"
 
 # Miscellaneous
